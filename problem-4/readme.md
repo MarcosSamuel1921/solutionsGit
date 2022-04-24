@@ -1,12 +1,12 @@
-:heavy_minus_sign: Declaro minhas variaveis, faço o uso do map para aplicar a função int em cada elemento da lista.
+Tempo de Jogo com Minutos
 
-:heavy_minus_sign: transformo tudo em minuto inicial e final, multiplicando por 60(numero de minutos em 1 hora).
+Leia a hora inicial, minuto inicial, hora final e minuto final de um jogo. A seguir calcule a duração do jogo.
 
-:heavy_minus_sign: se o temp for menor ou igual a 0, isso indica que o minuto incial(depois de convetido) é maior que o minuto final(depois de convetido).
+Obs: O jogo tem duração mínima de um (1) minuto e duração máxima de 24 horas.
 
-:heavy_minus_sign: se for menor ou igual 0, eu adiciono 24(dia) * 60(minutos)
+Entrada
+Quatro números inteiros representando a hora de início e fim do jogo.
 
-:heavy_minus_sign: depois faço a divisao do meu tempo total por 60(minutos) e o resultado será a(s) hora(s).
-
-:heavy_minus_sign: e o resto da divisão será o(s) minuto(s).
+Saída
+Mostre a seguinte mensagem: “O JOGO DUROU XXX HORA(S) E YYY MINUTO(S)” .
 
