@@ -1,12 +1,13 @@
-:heavy_minus_sign: converto o input() em float, pois estamos trabalhando com 2 casas decimais.
-
-:heavy_minus_sign: começo a dividir meu valor recebido pelas cédulas.
-
-:heavy_minus_sign: calculo o resto de cada divisão, tal resto que será dividido pela proxima cédula.
-
-:heavy_minus_sign: para as moedas, faço uso de uma conversão, onde transformo o valor recebido em centavos valor*100(cada real tem 100 centavos) para eliminar casas decimais.
+Notas e Moedas
 
 
-:heavy_minus_sign: depois de convertido eu realizo o mesmo processo de divisão feito anteriormente.
+Leia um valor de ponto flutuante com duas casas decimais. Este valor representa um valor monetário. A seguir, calcule o menor número de notas e moedas possíveis no qual o valor pode ser decomposto. As notas consideradas são de 100, 50, 20, 10, 5, 2. As moedas possíveis são de 1, 0.50, 0.25, 0.10, 0.05 e 0.01. A seguir mostre a relação de notas necessárias.
 
-:heavy_minus_sign: cada print para um nota ou moeda.
+Entrada
+O arquivo de entrada contém um valor de ponto flutuante N (0 ≤ N ≤ 1000000.00).
+
+Saída
+Imprima a quantidade mínima de notas e moedas necessárias para trocar o valor inicial, conforme exemplo fornecido.
+
+Obs: Utilize ponto (.) para separar a parte decimal.
+
